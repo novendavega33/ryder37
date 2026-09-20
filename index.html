@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Novenda | Network Engineer & NOC Engineer Portfolio</title>
+  <meta name="title" content="Novenda | Network Engineer & NOC Engineer Portfolio">
+  <meta name="description" content="Professional portfolio of Novenda - Network Engineer / NOC Engineer specializing in MikroTik RouterOS, BGP, OSPF, VLAN, VPN infrastructure, and network troubleshooting.">
+  <meta name="author" content="Novenda">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#060913">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://novenda.network/">
+  <meta property="og:title" content="Novenda | Network Engineer & NOC Engineer">
+  <meta property="og:description" content="Network enthusiast focused on routing, network troubleshooting, infrastructure, and reliable connectivity.">
+  <meta property="og:image" content="favicon.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="Novenda | Network Engineer & NOC Engineer">
+  <meta property="twitter:description" content="Network enthusiast focused on routing, network troubleshooting, infrastructure, and reliable connectivity.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Interactive Network Topology Canvas Background -->
+  <canvas id="network-canvas" aria-hidden="true"></canvas>
+
+  <!-- =========================================================================
+       HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" aria-label="Novenda Portfolio Home">
+        <span class="logo-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+          </svg>
+        </span>
+        <div class="logo-text">
+          <span class="logo-name">Novenda</span>
+          <span class="logo-role">Network & NOC</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <span class="status-pill">
+          <span class="status-dot"></span>
+          <span>NOC & Infrastructure</span>
+        </span>
+        <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero" aria-label="Introduction">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-greeting">
+              <span class="status-pill">
+                <span class="status-dot"></span>
+                <span>Network Engineer Portfolio</span>
+              </span>
+            </div>
+
+            <h1 class="hero-name">Novenda</h1>
+
+            <div class="hero-title">
+              <span>Network Engineer</span>
+              <span class="hero-title-separator">/</span>
+              <span>NOC Engineer</span>
+            </div>
+
+            <p class="hero-description">
+              Network enthusiast focused on routing, network troubleshooting, infrastructure, and reliable connectivity.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Projects</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <span>Contact Me</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Highlights Badges -->
+            <div class="hero-highlights">
+              <span class="highlight-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                Routing & Switching
+              </span>
+              <span class="highlight-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                NOC Operations
+              </span>
+              <span class="highlight-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                MikroTik RouterOS
+              </span>
+              <span class="highlight-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                VPN & Tunnels
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero Technical Console Card -->
+          <div class="hero-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <span class="terminal-title">novenda@core-router:~</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-prompt">[admin@MikroTik] > /system resource print</div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">platform:</span>
+                <span class="terminal-val accent">MikroTik RouterOS</span>
+              </div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">role:</span>
+                <span class="terminal-val">Network / NOC Engineer</span>
+              </div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">primary-focus:</span>
+                <span class="terminal-val">Routing & Troubleshooting</span>
+              </div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">protocols:</span>
+                <span class="terminal-val accent">BGP, OSPF, VLAN, PBR</span>
+              </div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">vpn-tunnels:</span>
+                <span class="terminal-val">L2TP, EoIP, WireGuard/IPsec</span>
+              </div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">monitoring:</span>
+                <span class="terminal-val emerald">SNMP, Traffic Analysis</span>
+              </div>
+              <div class="terminal-output-row">
+                <span class="terminal-label">environment:</span>
+                <span class="terminal-val">ISP / NOC / Enterprise</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section id="about" class="section" aria-label="About Me">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Dedicated network professional with a passion for designing resilient topologies, maintaining operational uptime, and resolving critical network incidents.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal-on-scroll">
+            <p class="about-lead">
+              "I work in network operations and enjoy troubleshooting networks, routing, and network infrastructure."
+            </p>
+            <p>
+              As a <strong>Network Engineer / NOC Engineer</strong>, my focus centers on maintaining reliable connectivity, managing routing tables, and diagnosing network incidents systematically. I work hands-on with <strong>MikroTik</strong> routers, dynamic routing protocols (<strong>OSPF</strong>, <strong>BGP</strong>), and traffic segmentation using <strong>VLANs</strong>.
+            </p>
+            <p>
+              In operational environments, I configure secure site-to-site connectivity using <strong>VPN, L2TP, and EoIP</strong>, manage bandwidth and traffic prioritization with <strong>QoS</strong>, and rely on continuous <strong>network monitoring</strong> and structured <strong>network troubleshooting</strong> to resolve issues proactively and keep infrastructure running smoothly.
+            </p>
+          </div>
+
+          <div class="about-cards-column reveal-on-scroll delay-1">
+            <!-- Core Focus 1 -->
+            <div class="about-card">
+              <div class="about-card-header">
+                <div class="about-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <h3 class="about-card-title">Routing & Infrastructure</h3>
+              </div>
+              <p class="about-card-desc">
+                Architecting deterministic routing paths, failover redundancy, BGP peering, and multi-tenant traffic segmentation.
+              </p>
+            </div>
+
+            <!-- Core Focus 2 -->
+            <div class="about-card">
+              <div class="about-card-header">
+                <div class="about-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </div>
+                <h3 class="about-card-title">NOC & Diagnostics</h3>
+              </div>
+              <p class="about-card-desc">
+                Investigating anomalies, packet captures, link degradation, and maintaining operational response during outages.
+              </p>
+            </div>
+
+            <!-- Core Focus 3 -->
+            <div class="about-card">
+              <div class="about-card-header">
+                <div class="about-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                </div>
+                <h3 class="about-card-title">Continuous Learning</h3>
+              </div>
+              <p class="about-card-desc">
+                Actively expanding network automation capabilities, Linux server administration, and modern cloud-interconnect concepts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="section" aria-label="Technical Skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Core networking protocols, routing operating systems, tunneling protocols, and diagnostic tools utilized in NOC and network administration environments.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="skills-filter-container reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Skills (11)</button>
+          <button class="filter-btn" data-filter="routing">Routing & Network</button>
+          <button class="filter-btn" data-filter="switching">Layer 2 & Switching</button>
+          <button class="filter-btn" data-filter="vpn">VPN & Tunnels</button>
+          <button class="filter-btn" data-filter="operations">Operations & Troubleshooting</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid reveal-on-scroll delay-1">
+
+          <!-- 1. MikroTik -->
+          <div class="skill-card" data-category="routing">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"></rect><rect x="2" y="14" width="20" height="8" rx="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">MikroTik</h3>
+                <span class="skill-meta">RouterOS & Hardware</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Hands-on configuration and administration via WinBox and CLI. Managing interface configurations, routing tables, firewall filters, and system maintenance.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">WinBox / CLI</span>
+              <span class="skill-tag">RouterOS</span>
+              <span class="skill-tag">Firewall Filter</span>
+            </div>
+          </div>
+
+          <!-- 2. BGP -->
+          <div class="skill-card" data-category="routing">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">BGP</h3>
+                <span class="skill-meta">Border Gateway Protocol</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              External and internal BGP peering sessions, autonomous system (AS) path manipulation, routing filters, and managing multi-homed ISP connections.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">eBGP / iBGP</span>
+              <span class="skill-tag">AS-Path</span>
+              <span class="skill-tag">Route Filters</span>
+            </div>
+          </div>
+
+          <!-- 3. OSPF -->
+          <div class="skill-card" data-category="routing">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">OSPF</h3>
+                <span class="skill-meta">Dynamic IGP</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Link-state internal gateway protocol configuration, single and multi-area topology design, router ID election, and dynamic shortest-path convergence.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">OSPF Areas</span>
+              <span class="skill-tag">Metric Tuning</span>
+              <span class="skill-tag">Path Convergence</span>
+            </div>
+          </div>
+
+          <!-- 4. VLAN -->
+          <div class="skill-card" data-category="switching">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">VLAN</h3>
+                <span class="skill-meta">802.1Q Switching</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Broadcast domain segmentation using IEEE 802.1Q tags, trunk and access port assignments, bridge VLAN filtering, and inter-VLAN routing.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">IEEE 802.1Q</span>
+              <span class="skill-tag">Trunk / Access</span>
+              <span class="skill-tag">Inter-VLAN</span>
+            </div>
+          </div>
+
+          <!-- 5. Routing -->
+          <div class="skill-card" data-category="routing">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M3 12h6m6 0h6M12 3v6m0 6v6"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">Routing</h3>
+                <span class="skill-meta">IP Routing & PBR</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Static routing, default gateway management, routing decision hierarchy, Policy Based Routing (PBR), and automated check-gateway failover logic.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Static Routes</span>
+              <span class="skill-tag">PBR Mangle</span>
+              <span class="skill-tag">Route Tables</span>
+            </div>
+          </div>
+
+          <!-- 6. VPN -->
+          <div class="skill-card" data-category="vpn">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">VPN</h3>
+                <span class="skill-meta">Virtual Private Networks</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Deploying secure site-to-site connectivity and remote access tunnels over public WAN links to establish private network interconnection.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Site-to-Site</span>
+              <span class="skill-tag">Encrypted Links</span>
+              <span class="skill-tag">Remote Access</span>
+            </div>
+          </div>
+
+          <!-- 7. L2TP -->
+          <div class="skill-card" data-category="vpn">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">L2TP</h3>
+                <span class="skill-meta">Layer 2 Tunnel Protocol</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              L2TP server and client implementation combined with IPsec encryption for stable, point-to-point interconnectivity between branch offices.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">L2TP/IPsec</span>
+              <span class="skill-tag">PPP Profiles</span>
+              <span class="skill-tag">Branch Tunnels</span>
+            </div>
+          </div>
+
+          <!-- 8. EoIP -->
+          <div class="skill-card" data-category="vpn">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">EoIP</h3>
+                <span class="skill-meta">Ethernet over IP</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              MikroTik tunneling protocol creating transparent Layer 2 Ethernet bridging over IP networks, allowing seamless broadcast forwarding between sites.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">L2 Bridging</span>
+              <span class="skill-tag">Tunnel ID</span>
+              <span class="skill-tag">Bridge Groups</span>
+            </div>
+          </div>
+
+          <!-- 9. QoS -->
+          <div class="skill-card" data-category="operations">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">QoS</h3>
+                <span class="skill-meta">Bandwidth & Traffic Shaping</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Bandwidth control, Simple Queues, and Queue Trees (HTB) to prioritize mission-critical network services and prevent link saturation.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Simple Queues</span>
+              <span class="skill-tag">Queue Tree (HTB)</span>
+              <span class="skill-tag">Prioritization</span>
+            </div>
+          </div>
+
+          <!-- 10. Network Troubleshooting -->
+          <div class="skill-card" data-category="operations">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">Network Troubleshooting</h3>
+                <span class="skill-meta">Diagnostics & Fault Isolation</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Methodical incident diagnostics using ping, traceroute, Torch, packet captures, loop detection, and routing table audits to resolve connectivity faults.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Torch / Diagnostics</span>
+              <span class="skill-tag">Packet Sniffer</span>
+              <span class="skill-tag">Fault Isolation</span>
+            </div>
+          </div>
+
+          <!-- 11. Network Monitoring -->
+          <div class="skill-card" data-category="operations">
+            <div class="skill-header">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="skill-name">Network Monitoring</h3>
+                <span class="skill-meta">Observability & Alerting</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              SNMP polling, device status verification, interface bandwidth utilization tracking, and early threshold alerting for proactive NOC operations.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">SNMP v2c/v3</span>
+              <span class="skill-tag">Interface Metrics</span>
+              <span class="skill-tag">Threshold Alerts</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS / TECHNICAL IMPLEMENTATIONS -->
+    <section id="projects" class="section" aria-label="Technical Projects">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Engineering Workflows</span>
+          <h2 class="section-title">Projects & Implementations</h2>
+          <p class="section-subtitle">
+            Categorized overview of hands-on production deployments, diagnostic case studies, and lab testbed architectures.
+          </p>
+        </div>
+
+        <!-- Project Type Filter Buttons -->
+        <div class="skills-filter-container reveal-on-scroll">
+          <button class="filter-btn active" data-project-filter="all">All Implementations (6)</button>
+          <button class="filter-btn" data-project-filter="production">Hands-on / Production (2)</button>
+          <button class="filter-btn" data-project-filter="case-study">Technical Case Studies (2)</button>
+          <button class="filter-btn" data-project-filter="lab">Lab & Simulation (2)</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- 1. Production: Multi-WAN & PBR -->
+          <article class="project-card reveal-on-scroll" data-project-type="production">
+            <div class="project-card-header">
+              <span class="project-type-badge production">Hands-on / Production</span>
+              <span class="project-category">Traffic Engineering & WAN Resilience</span>
+              <h3 class="project-title">Multi-WAN & PBR</h3>
+            </div>
+            <div class="project-body">
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  Problem
+                </span>
+                <p class="project-field-content">
+                  A multi-uplink network required automated failover when primary links failed, along with policy routing to balance traffic and prevent secondary paid bandwidth from sitting idle.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Solution
+                </span>
+                <p class="project-field-content">
+                  Configured recursive route failover in MikroTik RouterOS with check-gateway ping monitoring, combined with Policy Based Routing (PBR) and PCC connection marking to distribute client traffic across available uplinks.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                  Technologies
+                </span>
+                <div class="project-tech-rack">
+                  <span class="project-tech-tag">MikroTik RouterOS</span>
+                  <span class="project-tech-tag">Recursive Routing</span>
+                  <span class="project-tech-tag">PCC Load Balancing</span>
+                  <span class="project-tech-tag">PBR Mangle</span>
+                </div>
+              </div>
+
+              <div class="project-result-box">
+                <strong>Outcome:</strong>
+                [Placeholders for your specific environment / e.g., Automated sub-second uplink failover without manual intervention, maintaining session persistence and balancing outbound bandwidth utilization across links]
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Production: MikroTik Infrastructure -->
+          <article class="project-card reveal-on-scroll delay-1" data-project-type="production">
+            <div class="project-card-header">
+              <span class="project-type-badge production">Hands-on / Production</span>
+              <span class="project-category">Network Deployment & Security</span>
+              <h3 class="project-title">MikroTik Infrastructure</h3>
+            </div>
+            <div class="project-body">
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  Problem
+                </span>
+                <p class="project-field-content">
+                  Need for structured router deployment, segmented client subnets, firewall filtering, and centralized bandwidth management in an operational network.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Solution
+                </span>
+                <p class="project-field-content">
+                  Deployed MikroTik core and distribution router configurations, establishing 802.1Q VLANs, interface bridge filtering, NAT/firewall security rules, and QoS Simple Queues for fair bandwidth allocation.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                  Technologies
+                </span>
+                <div class="project-tech-rack">
+                  <span class="project-tech-tag">MikroTik RouterOS</span>
+                  <span class="project-tech-tag">802.1Q VLAN</span>
+                  <span class="project-tech-tag">Firewall Filter</span>
+                  <span class="project-tech-tag">Simple Queues</span>
+                </div>
+              </div>
+
+              <div class="project-result-box">
+                <strong>Outcome:</strong>
+                [Placeholders for your specific environment / e.g., Stable network distribution with isolated VLAN segments, enforced firewall policies, and managed bandwidth quotas]
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Case Study: Network Troubleshooting -->
+          <article class="project-card reveal-on-scroll" data-project-type="case-study">
+            <div class="project-card-header">
+              <span class="project-type-badge case-study">Technical Case Study</span>
+              <span class="project-category">NOC Diagnostics & Fault Isolation</span>
+              <h3 class="project-title">Network Troubleshooting</h3>
+            </div>
+            <div class="project-body">
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  Problem
+                </span>
+                <p class="project-field-content">
+                  A core distribution router experienced sporadic 100% CPU spikes during peak traffic, triggering packet queue drops, interface flapping, and widespread subscriber latency.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Solution
+                </span>
+                <p class="project-field-content">
+                  Leveraged RouterOS `/tool profile`, Torch, and Packet Sniffer streams into Wireshark to locate malicious DNS amplification flood traffic and an unmanaged Layer 2 loop. Placed drop rules into the firewall Raw table to drop invalid packets before connection tracking.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                  Technologies
+                </span>
+                <div class="project-tech-rack">
+                  <span class="project-tech-tag">Packet Sniffer / Wireshark</span>
+                  <span class="project-tech-tag">Firewall Raw Table</span>
+                  <span class="project-tech-tag">Torch Diagnostics</span>
+                  <span class="project-tech-tag">Loop Protect</span>
+                </div>
+              </div>
+
+              <div class="project-result-box">
+                <strong>Outcome:</strong>
+                [Placeholders for your specific environment / e.g., Core CPU load stabilized back to normal baseline levels, eliminating connection tracking overhead and ending packet drop alarms]
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Case Study: BGP & Routing -->
+          <article class="project-card reveal-on-scroll delay-1" data-project-type="case-study">
+            <div class="project-card-header">
+              <span class="project-type-badge case-study">Technical Case Study</span>
+              <span class="project-category">Inter-Domain Peering & Egress Control</span>
+              <h3 class="project-title">BGP & Routing</h3>
+            </div>
+            <div class="project-body">
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  Problem
+                </span>
+                <p class="project-field-content">
+                  In a multihomed BGP deployment, asymmetric ingress routing and suboptimal transit provider selection resulted in elevated latency and inefficient transit path utilization.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Solution
+                </span>
+                <p class="project-field-content">
+                  Audited BGP path attributes. Applied outbound AS-Path prepending to influence remote Autonomous Systems, and configured Local Preference in routing filters to steer egress traffic through the preferred low-latency transit provider.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                  Technologies
+                </span>
+                <div class="project-tech-rack">
+                  <span class="project-tech-tag">eBGP Peering</span>
+                  <span class="project-tech-tag">AS-Path Prepending</span>
+                  <span class="project-tech-tag">Local Preference</span>
+                  <span class="project-tech-tag">Routing Filters</span>
+                </div>
+              </div>
+
+              <div class="project-result-box">
+                <strong>Outcome:</strong>
+                [Placeholders for your specific environment / e.g., Established symmetric transit traffic flow, reduced round-trip times to primary destinations, and verified reliable route convergence]
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Lab / Learning: VPN & Tunnel -->
+          <article class="project-card reveal-on-scroll" data-project-type="lab">
+            <div class="project-card-header">
+              <span class="project-type-badge lab">Lab / Learning Project</span>
+              <span class="project-category">Tunneling Simulation & Overlay Topology</span>
+              <h3 class="project-title">VPN & Tunnel</h3>
+            </div>
+            <div class="project-body">
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  Problem
+                </span>
+                <p class="project-field-content">
+                  Lab evaluation of connecting geographically separated branch offices over an unencrypted public WAN while enabling transparent Layer 2 broadcast discovery for legacy management services.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Solution
+                </span>
+                <p class="project-field-content">
+                  Constructed an L2TP/IPsec tunnel overlay carrying MikroTik EoIP interfaces linked directly into bridge groups. Tuned MTU sizes and implemented TCP MSS clamping (`change-mss`) to eliminate packet fragmentation over WAN interfaces.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                  Technologies
+                </span>
+                <div class="project-tech-rack">
+                  <span class="project-tech-tag">VPN</span>
+                  <span class="project-tech-tag">L2TP/IPsec</span>
+                  <span class="project-tech-tag">EoIP Tunneling</span>
+                  <span class="project-tech-tag">TCP MSS Clamping</span>
+                </div>
+              </div>
+
+              <div class="project-result-box">
+                <strong>Outcome:</strong>
+                [Placeholders for your specific environment / e.g., Verified stable Layer 2 broadcast transmission and seamless cross-site communication without MTU fragmentation in a multi-router simulation testbed]
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Lab / Learning: Network Monitoring -->
+          <article class="project-card reveal-on-scroll delay-1" data-project-type="lab">
+            <div class="project-card-header">
+              <span class="project-type-badge lab">Lab / Learning Project</span>
+              <span class="project-category">Observability & Monitoring Testbed</span>
+              <h3 class="project-title">Network Monitoring</h3>
+            </div>
+            <div class="project-body">
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  Problem
+                </span>
+                <p class="project-field-content">
+                  Required a safe testing environment to configure SNMP community strings, calibrate polling intervals, and test early-warning threshold alerts prior to deploying across production hardware.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Solution
+                </span>
+                <p class="project-field-content">
+                  Built a monitoring lab polling simulated MikroTik routers and Linux hosts via SNMP v2c/v3. Configured trigger thresholds for ICMP latency deviations, optical RX power anomalies, interface errors, and queue packet drop alerts.
+                </p>
+              </div>
+
+              <div class="project-field">
+                <span class="project-field-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                  Technologies
+                </span>
+                <div class="project-tech-rack">
+                  <span class="project-tech-tag">Network Monitoring</span>
+                  <span class="project-tech-tag">SNMP v2c/v3</span>
+                  <span class="project-tech-tag">Traffic Telemetry</span>
+                  <span class="project-tech-tag">Threshold Triggers</span>
+                </div>
+              </div>
+
+              <div class="project-result-box">
+                <strong>Outcome:</strong>
+                [Placeholders for your specific environment / e.g., Confirmed threshold accuracy, alert dispatch reliability, and proactive detection workflows on network telemetry before rolling out to live infrastructure]
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. EXPERIENCE SECTION -->
+    <section id="experience" class="section" aria-label="Professional Experience">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Career History</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            Timeline of hands-on responsibilities in Network Operations Center (NOC) and network engineering support environments.
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="timeline-line"></div>
+
+          <!-- Experience Item 1 -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Network Engineer / NOC Specialist</h3>
+                  <div class="timeline-company">[Company / ISP / Organization Name]</div>
+                </div>
+                <span class="timeline-date-badge">[Month Year – Present]</span>
+              </div>
+              <div class="timeline-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>[City, Country / Remote]</span>
+              </div>
+              <ul class="timeline-duties">
+                <li class="timeline-duty">
+                  Monitored core and distribution network infrastructure, responding swiftly to alerts regarding route flapping, link degradation, and hardware failures.
+                </li>
+                <li class="timeline-duty">
+                  Configured and maintained MikroTik routers, managing VLAN allocations, firewall rules, and NAT tables to support client provisioning.
+                </li>
+                <li class="timeline-duty">
+                  Performed root-cause analysis on network incidents, documenting post-incident reviews and updating topology diagrams.
+                </li>
+                <li class="timeline-duty">
+                  Assisted in implementing routing adjustments (OSPF/BGP) and coordinated with upstream transit providers for planned maintenance windows.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience Item 2 -->
+          <div class="timeline-item reveal-on-scroll delay-1">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Network Support Engineer</h3>
+                  <div class="timeline-company">[Previous Company / ISP / Service Provider]</div>
+                </div>
+                <span class="timeline-date-badge">[Month Year – Month Year]</span>
+              </div>
+              <div class="timeline-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>[City, Country]</span>
+              </div>
+              <ul class="timeline-duties">
+                <li class="timeline-duty">
+                  Provided Tier 1/2 technical escalation support for corporate and residential broadband subscribers experiencing connectivity issues.
+                </li>
+                <li class="timeline-duty">
+                  Conducted remote router diagnosis via SSH and WinBox, resolving issues with PPPoE sessions, DHCP bindings, and DNS configurations.
+                </li>
+                <li class="timeline-duty">
+                  Collaborated with field technicians during site visits and optical link repairs to confirm link restoration and signal strength verification.
+                </li>
+                <li class="timeline-duty">
+                  Maintained network equipment configuration backups and assisted in upgrading firmware across deployed devices.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section" aria-label="Certifications">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">
+            Formal technical certifications validating knowledge in routing architectures, network troubleshooting, and systems administration.
+          </p>
+        </div>
+
+        <div class="certifications-grid">
+
+          <!-- Certification Card 1 -->
+          <div class="cert-card reveal-on-scroll">
+            <div class="cert-top">
+              <div class="cert-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <span class="cert-status-tag">[Status: Certified / In Progress]</span>
+            </div>
+            <h3 class="cert-title">[e.g., MTCNA - MikroTik Certified Network Associate]</h3>
+            <span class="cert-issuer">[MikroTikls SIA / Vendor]</span>
+            <div class="cert-meta-row">
+              <span class="cert-id">ID: [Credential ID Placeholder]</span>
+              <span class="cert-date">[Year]</span>
+            </div>
+          </div>
+
+          <!-- Certification Card 2 -->
+          <div class="cert-card reveal-on-scroll delay-1">
+            <div class="cert-top">
+              <div class="cert-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <span class="cert-status-tag">[Status: Certified / In Progress]</span>
+            </div>
+            <h3 class="cert-title">[e.g., MTCRE - MikroTik Certified Routing Engineer]</h3>
+            <span class="cert-issuer">[MikroTikls SIA / Vendor]</span>
+            <div class="cert-meta-row">
+              <span class="cert-id">ID: [Credential ID Placeholder]</span>
+              <span class="cert-date">[Year]</span>
+            </div>
+          </div>
+
+          <!-- Certification Card 3 -->
+          <div class="cert-card reveal-on-scroll delay-2">
+            <div class="cert-top">
+              <div class="cert-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              </div>
+              <span class="cert-status-tag">[Status: Planned / Candidate]</span>
+            </div>
+            <h3 class="cert-title">[e.g., CCNA - Cisco Certified Network Associate]</h3>
+            <span class="cert-issuer">[Cisco Systems / Vendor]</span>
+            <div class="cert-meta-row">
+              <span class="cert-id">ID: [Verification ID Placeholder]</span>
+              <span class="cert-date">[Year]</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section id="contact" class="section" aria-label="Contact Information">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Get Connected</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            Open for technical discussions, network infrastructure opportunities, and NOC engineering collaborations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Column -->
+          <div class="contact-info-column reveal-on-scroll">
+
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-card-label">Email Address</span>
+                  <a href="mailto:[Your Email]" class="contact-card-val">[Your Email]</a>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="[Your Email]" aria-label="Copy email address" title="Copy email address">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- WhatsApp Card -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-card-label">WhatsApp</span>
+                  <a href="https://wa.me/[Your WhatsApp]" target="_blank" rel="noopener noreferrer" class="contact-card-val">[Your WhatsApp]</a>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="[Your WhatsApp]" aria-label="Copy WhatsApp number" title="Copy WhatsApp number">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-card-label">LinkedIn Profile</span>
+                  <a href="https://linkedin.com/in/[Your LinkedIn]" target="_blank" rel="noopener noreferrer" class="contact-card-val">[Your LinkedIn]</a>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="https://linkedin.com/in/[Your LinkedIn]" aria-label="Copy LinkedIn URL" title="Copy LinkedIn URL">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-form-card reveal-on-scroll delay-1">
+            <h3 class="contact-form-title">Send a Direct Message</h3>
+            <p class="contact-form-desc">
+              Have a network inquiry or opportunity? Leave a message below.
+            </p>
+
+            <div id="form-status-alert" class="form-status-alert" role="alert"></div>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name *</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="Your Name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address *</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="name@domain.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Network Project / NOC Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Describe your network infrastructure requirements..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        © <span id="current-year">2026</span> <strong>Novenda</strong>. Network Engineer / NOC Engineer.
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#hero" class="footer-link">Hero</a></li>
+        <li><a href="#about" class="footer-link">About</a></li>
+        <li><a href="#skills" class="footer-link">Skills</a></li>
+        <li><a href="#projects" class="footer-link">Projects</a></li>
+        <li><a href="#experience" class="footer-link">Experience</a></li>
+        <li><a href="#certifications" class="footer-link">Certifications</a></li>
+      </ul>
+
+      <button class="back-to-top" aria-label="Back to top">
+        <span>Back to Top</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element -->
+  <div id="toast-notice" class="toast-notice" role="status" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="js/network-canvas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
